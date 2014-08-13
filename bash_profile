@@ -225,5 +225,7 @@ fi
 
 ## Define any user-specific variables you want here.
 source ~/.bashrc_custom
-export http_proxy="http://162.105.146.215:4193/"
 export JAVA_OPTS="-Dfile.encoding=UTF-8"
+export MAVEN_OPTS="-Xmx3000m"
+alias subl='open -a "Sublime Text"'
+
