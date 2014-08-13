@@ -227,7 +227,7 @@ fi
 # source ~/.bashrc_custom
 export JAVA_OPTS="-Dfile.encoding=UTF-8"
 export MAVEN_OPTS="-Xmx3000m"
-export SBT_OPTS="-XX:+CMSClassUnloadingEnabled -XX:MaxPermSize=2560M"
+export SBT_OPTS="-XX:+CMSClassUnloadingEnabled -Xmx3000m"
 alias subl='open -a "Sublime Text"'
 
 
