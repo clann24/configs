@@ -224,7 +224,23 @@ fi
 ## ------------------------------
 
 ## Define any user-specific variables you want here.
-source ~/.bashrc_custom
+# source ~/.bashrc_custom
 export JAVA_OPTS="-Dfile.encoding=UTF-8"
 export MAVEN_OPTS="-Xmx3000m"
+export SBT_OPTS="-XX:+CMSClassUnloadingEnabled -XX:MaxPermSize=2560M"
 alias subl='open -a "Sublime Text"'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
