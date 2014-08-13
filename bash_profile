@@ -175,7 +175,7 @@ alias cp="cp -i"
 set -o noclobber
 
 # 2.2) Listing, directories, and motion
-alias ll="ls -alrtF --color"
+alias ll="ls -alrtGF"
 alias la="ls -A"
 alias l="ls -CF"
 alias dir='ls --color=auto --format=vertical'
@@ -228,4 +228,3 @@ source ~/.bashrc_custom
 export JAVA_OPTS="-Dfile.encoding=UTF-8"
 export MAVEN_OPTS="-Xmx3000m"
 alias subl='open -a "Sublime Text"'
-
