@@ -15,5 +15,6 @@ elif [ "$(expr substr $(uname -s) 1 5)" == "Linux" ]; then
   cp bash_profile ~/.bashrc
   source ~/.bashrc
 elif [ "$(expr substr $(uname -s) 1 10)" == "MINGW32_NT" ]; then
-    # Do something under Windows NT platform
+  # Do something under Windows NT platform
+  echo "nothing"
 fi
