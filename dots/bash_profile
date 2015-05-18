@@ -1,0 +1,24 @@
+
+# Enable tab completion
+source ~/dots/git-completion.bash
+# Change command prompt
+source ~/dots/git-prompt.sh
+export GIT_PS1_SHOWDIRTYSTATE=1
+
+# colors!
+green="\[\033[0;32m\]"
+blue="\[\033[0;34m\]"
+purple="\[\033[0;35m\]"
+reset="\[\033[0m\]"
+alias ll='ls -Flh'
+# '\u' adds the name of the current user to the prompt
+# '\$(__git_ps1)' adds git-related stuff
+# '\W' adds the name of the current directory
+
+export CLICOLOR=1
+export LSCOLORS=ExFxBxDxCxegedabagacad
+
+export PS1="\[\033[36m\]\u\[\033[m\]@\[\033[32m\]\h:\[\033[33;1m\]\w\[\033[m\]$green\$(__git_ps1) $ $reset "
+
+export PATH=$PATH:"/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+
